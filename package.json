@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Chunk array to equals parts",
   "main": "index.js",
+  "repository": {
+    "url": "https://github.com/whthT/array-chunk-equals"
+  },
   "keywords": [
     "array-chunk",
     "equals-array-chunk",
