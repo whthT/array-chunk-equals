@@ -4,16 +4,17 @@
  * @param {Number} size
  */
 const chunkEquals = function(input, size) {
+  const arr = input.slice();
   const res = [];
-  const itemSize = Math.floor(input.length / size);
+  const itemSize = Math.floor(arr.length / size);
 
   for (let i = 0; i < size; i++) {
-    res.push(input.splice(0, itemSize));
+    res.push(arr.splice(0, itemSize));
   }
 
-  if (input.length) {
-    for (let key in input) {
-      res[key] = [].concat(res[key], input[key]).filter(Boolean);
+  if (arr.length) {
+    for (let key in arr) {
+      res[key] = [].concat(res[key], arr[key]).filter(Boolean);
     }
   }
 
