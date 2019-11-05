@@ -1,0 +1,26 @@
+{
+  "name": "array-chunk-equals",
+  "version": "1.0.0",
+  "description": "Chunk array to equals parts",
+  "main": "index.js",
+  "keywords": [
+    "array-chunk",
+    "equals-array-chunk",
+    "chunk-array-equals"
+  ],
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "author": {
+    "name": "Musa Kurt",
+    "email": "hackedtim61@gmail.com",
+    "url": "https://github.com/whtht"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "jest": "^24.9.0"
+  }
+}
